@@ -1,12 +1,4 @@
-﻿using System;
+﻿using Benchmark;
+using BenchmarkDotNet.Running;
 
-namespace OrderBookExampleBenchmark
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
-        }
-    }
-}
+BenchmarkRunner.Run<OrderBookBecnchmark>();
